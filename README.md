@@ -1,6 +1,6 @@
 #### Supermarket Swings: The Up-And-Down World of Grocery Costs
 
-## Contents of this Repository
+# Contents of this Repository
 This repository contains the code, data, and documentation for analyzing grocery price trends over time. It includes: 
 - Data retrieval scripts for fetching price data from the BLS API
 - Time series analysis scripts for visualizing price fluctuations
@@ -8,13 +8,13 @@ This repository contains the code, data, and documentation for analyzing grocery
 - Documentation on the methods, software, and steps for reproduction
 
 ## Software and Platform
-# Software Used: Python
-# Required Packages: 
+ Software Used: Python
+ Required Packages: 
 - pandas (for data manipulation)
 - matplotlib & seaborn (for visualization)
 - statsmodels (for time series analysis)
 - requests (for API data retrieval)
-# Platform: Compatible with Windows, Mac, and Linux
+ Platform: Compatible with Windows, Mac, and Linux
 
 ## Repository Structure
  /data               # Contains raw and processed data
