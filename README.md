@@ -28,19 +28,25 @@ Platform: Compatible with Windows, Mac, and Linux
 ## Reproducing the Results
 To reproduce the results of this project, follow these steps:
 
-### 1. Clone the Repository
-First, download the repository to your local machine:
+##1. Clone the Repository
 ```bash
 git clone https://github.com/kaitlinblakeslee/ctrlaltelite.git
 cd ctrlaltelite
-### 2. Install Dependencies
-pip install pandas matplotlib seaborn statsmodels requests numpy
-### 3. Download and Prepare Data
+```
+
+## 2. Install Dependencies
+```bash
+pip install pandas matplotlib seaborn statsmodels requests numpypip install pandas matplotlib seaborn statsmodels requests numpy
+```
+
+## 3. Download and Prepare Data
 The data is retrieved from the BLS API using the data_fetch.py script.
 Run the script to download and store grocery price data in the DATA/ folder.
-### 4. Run Analysis Jupyter Notebooks
+
+## 4. Run Analysis Jupyter Notebooks
 price_trends.ipynb: Explores historical grocery price trends and calculates price change distributions.
 forecasting.ipynb: Uses a SARIMA model to predict future grocery price changes and assess volatility.
-### 5. View Results
+
+## 5. View Results
 The results will be stored in the OUTPUT/ folder.
 Key figures, CSVs, and analysis summaries can be found there for further exploration.
