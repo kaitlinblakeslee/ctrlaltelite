@@ -1,7 +1,7 @@
-## Supermarket Swings: The Up-And-Down World of Grocery Costs
+#### Supermarket Swings: The Up-And-Down World of Grocery Costs
 
 ## Contents of this Repository
-# This repository contains the code, data, and documentation for analyzing grocery price trends over time. It includes: 
+This repository contains the code, data, and documentation for analyzing grocery price trends over time. It includes: 
 - Data retrieval scripts for fetching price data from the BLS API
 - Time series analysis scripts for visualizing price fluctuations
 - Statistical models for forecasting future grocery prices
@@ -17,12 +17,12 @@
 # Platform: Compatible with Windows, Mac, and Linux
 
 ## Repository Structure
-│── /data               # Contains raw and processed data
-│── /notebooks          # Jupyter notebooks for analysis
-│── /scripts            # Python scripts for fetching and processing data
-│── /results            # Outputs and figures from analysis
-│── LICENSE.md          # License information
-│── README.md           # Project documentation
+ /data               # Contains raw and processed data
+ /notebooks          # Jupyter notebooks for analysis
+ /scripts            # Python scripts for fetching and processing data
+ /results            # Outputs and figures from analysis
+ LICENSE.md          # License information
+ README.md           # Project documentation
 
 ## Reproducing the results
 To reproduce our results, follow these steps:
