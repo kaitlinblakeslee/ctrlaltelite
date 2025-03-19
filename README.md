@@ -9,34 +9,38 @@ This repository contains the code, data, and documentation for analyzing grocery
 
 ## Software and Platform
  Software Used: Python
+ 
  Required Packages: 
 - pandas (for data manipulation)
 - matplotlib & seaborn (for visualization)
 - statsmodels (for time series analysis)
 - requests (for API data retrieval)
- Platform: Compatible with Windows, Mac, and Linux
+  
+Platform: Compatible with Windows, Mac, and Linux
 
 ## Repository Structure
- /data               # Contains raw and processed data
- /notebooks          # Jupyter notebooks for analysis
- /scripts            # Python scripts for fetching and processing data
- /results            # Outputs and figures from analysis
+ /DATA               # Contains raw and processed data
+ /SCRIPTS            # Jupyter notebook scripts for fetching and processing data
+ /OUTPUT            # Outputs and figures from analysis
  LICENSE.md          # License information
  README.md           # Project documentation
 
-## Reproducing the results
-To reproduce our results, follow these steps:
-## 1. Clone the repository
+## Reproducing the Results
+To reproduce the results of this project, follow these steps:
+
+### 1. Clone the Repository
 First, download the repository to your local machine:
+```bash
 git clone https://github.com/kaitlinblakeslee/ctrlaltelite.git
 cd ctrlaltelite
-## 2. Install dependencies
+### 2. Install Dependencies
 pip install pandas matplotlib seaborn statsmodels requests numpy
-## 3. Retrieve and prepare data
+### 3. Download and Prepare Data
 The data is retrieved from the BLS API using the data_fetch.py script.
 Run the script to download and store grocery price data in the DATA/ folder.
-## 4. Run analysis notebooks (this will be edited)
+### 4. Run Analysis Jupyter Notebooks
 price_trends.ipynb: Explores historical grocery price trends and calculates price change distributions.
 forecasting.ipynb: Uses a SARIMA model to predict future grocery price changes and assess volatility.
-## 5. View results
-Processed data, figures, and forecasted trends will be stored in the OUTPUT/ folder.
+### 5. View Results
+The results will be stored in the OUTPUT/ folder.
+Key figures, CSVs, and analysis summaries can be found there for further exploration.
