@@ -46,8 +46,8 @@ Run the script to download and store grocery price data in the DATA/ folder.
 Run M2_Project_2_Data_Retrieval.ipynb
 
 ## 4. Run Analysis Jupyter Notebooks
-eda_analysis.ipynb: Visualizes trends and patterns in price fluctuations
-sarima_analysis.ipynb: Uses a SARIMA model to predict future grocery price changes and assess volatility.
+EDA_data_MD_Project2.ipynb: Visualizes trends and patterns in price fluctuations
+SARIMA_M3_Analysis.ipynb: Uses a SARIMA model to predict future grocery price changes and assess volatility.
 
 ## 5. View Results
 The results will be stored in the OUTPUT/ folder.
