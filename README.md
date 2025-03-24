@@ -12,6 +12,7 @@ This repository contains the code, data, and documentation for analyzing grocery
  
  Required Packages: 
 - pandas (for data manipulation)
+- numpy (numerical calculation)
 - matplotlib & seaborn (for visualization)
 - statsmodels (for time series analysis)
 - requests (for API data retrieval)
@@ -36,16 +37,17 @@ cd ctrlaltelite
 
 ## 2. Install Dependencies
 ```bash
-pip install pandas matplotlib seaborn statsmodels requests numpypip install pandas matplotlib seaborn statsmodels requests numpy
+pip install pandas matplotlib seaborn statsmodels requests numpy
 ```
 
 ## 3. Download and Prepare Data
 The data is retrieved from the BLS API using the data_fetch.py script.
 Run the script to download and store grocery price data in the DATA/ folder.
+Run M2_Project_2_Data_Retrieval.ipynb
 
 ## 4. Run Analysis Jupyter Notebooks
-price_trends.ipynb: Explores historical grocery price trends and calculates price change distributions.
-forecasting.ipynb: Uses a SARIMA model to predict future grocery price changes and assess volatility.
+eda_analysis.ipynb: Visualizes trends and patterns in price fluctuations
+sarima_analysis.ipynb: Uses a SARIMA model to predict future grocery price changes and assess volatility.
 
 ## 5. View Results
 The results will be stored in the OUTPUT/ folder.
