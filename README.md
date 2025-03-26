@@ -29,7 +29,7 @@ Platform: Compatible with Windows, Mac, and Linux
 ## Reproducing the Results
 To reproduce the results of this project, follow these steps:
 
-##1. Clone the Repository
+## 1. Clone the Repository
 ```bash
 git clone https://github.com/kaitlinblakeslee/ctrlaltelite.git
 cd ctrlaltelite
